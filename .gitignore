@@ -2,4 +2,6 @@
 */.ipynb_checkpoints/*
 # Ignore configuration files
 nvda_config.py
+nvda_config1.py
+nvda_config2.py
 Regression_sandbox.R
