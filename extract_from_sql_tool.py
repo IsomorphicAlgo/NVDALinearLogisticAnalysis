@@ -26,4 +26,4 @@ def extract_table_to_csv(table_name, cPassword):
     connection.close()
 
 
-extract_table_to_csv("stock_ticks", Cpassword)
+extract_table_to_csv("nvda_new", Cpassword)

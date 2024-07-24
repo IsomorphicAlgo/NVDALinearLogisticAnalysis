@@ -1,0 +1,7 @@
+Test Log
+
+7-23-24
+Began few minutes late tweaking the code due to the bad date idea. Twelve data doesnt have a timestamp returned in the price request. Generated it myself. 
+
+08:15:00 am walked away from the laptop with my phone severing the internet connection. As of yet unknown how much data lost but approx 15 minutes.
+
