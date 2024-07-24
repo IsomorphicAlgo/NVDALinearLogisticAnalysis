@@ -75,4 +75,3 @@ correlations_nvda <- cor(nvda_joined_numeric$close, nvda_joined_numeric)
 print(correlations_nvda)
 # Correlation plot with numbers
 corrplot(correlations_nvda, method = "number") 
-s
