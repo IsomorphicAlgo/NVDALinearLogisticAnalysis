@@ -4,13 +4,13 @@ import nvda_config
 
 Cpassword = nvda_config.mysql_password
 
-def extract_table_to_csv(table_name, cPassword):
+def extract_table_to_csv(table_name, cPassword, server_db):
     # Connect to the local MySQL server
     connection = mysql.connector.connect(
         host='localhost',
         user='root',         
         password=Cpassword,
-        database='nvdav1'
+        database=server_db
     )
     
     # Query to extract table contents
@@ -25,5 +25,5 @@ def extract_table_to_csv(table_name, cPassword):
     # Close the connection
     connection.close()
 
-# stock_ticks, technical_indicators, stock_prices, stock_splits, stock_dividends
-extract_table_to_csv("stock_ticks", Cpassword)
+# stock_ticks, technical_indicators, stock_prices, nvda_profile, nvda_new, (live_price)
+extract_table_to_csv("live_price", Cpassword, "bailish_estate")
